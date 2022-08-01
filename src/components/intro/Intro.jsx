@@ -19,7 +19,7 @@ const Intro = () => {
           <p className="i-desc">
             Technology fascinates me. Proactive, enterprising and very committed
             to constant challenges. I have experience in the programming area,
-            as well as solid knowledge in the banking and commercial field.
+            as well as solid knowledge in the banking and commercial field!
           </p>
         </div>
       </div>
