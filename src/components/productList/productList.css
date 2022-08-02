@@ -33,6 +33,11 @@
         padding-bottom: 50px;
     }
 
+    .pl-title {
+        font-weight: 400;
+        font-size: 30px;
+    }
+
     .pl-texts {
         width: 100%;
     }
@@ -41,4 +46,12 @@
         display: none;
     }
 
+}
+
+@media screen and (max-width: 380px) {
+    .pl-title {
+        font-size: 30px;
+        font-weight: 400;
+        padding-top: 150px;
+    }
 }

@@ -15,6 +15,7 @@
 
 .a-right {
   flex: 1;
+  padding-right: 20px;
 }
 
 .a-card.bg {
@@ -114,4 +115,19 @@
     padding: 20px;
   }
 
+}
+
+@media screen and (max-width: 414px) {
+  .a{
+    padding-top: 50px
+  }
+  .a-award-texts {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+.a-left {
+  padding-top: 60px;
+}
 }
