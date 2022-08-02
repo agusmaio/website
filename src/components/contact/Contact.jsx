@@ -2,7 +2,7 @@ import React, { useContext, useRef, useState } from "react";
 import "./contact.css";
 import Phone from "../../img/phone.png";
 import Email from "../../img/email.png";
-import Adress from "../../img/adress.png";
+import Adress from "../../img/adress.jpg";
 import emailjs from "emailjs-com";
 import { ThemeContext } from "../../context";
 
@@ -37,10 +37,10 @@ const Contact = () => {
       <div className="c-bg"></div>
       <div className="c-wrapper">
         <div className="c-left">
-          <h1 className="c-title">Let's discuss your project</h1>
+          <h1 className="c-title">Hablemos de tu proyecto</h1>
           <div className="c-info">
             <div className="c-info-item">
-              <img src={Phone} alt="" className="c-icon" />
+              <img src={Phone} alt="" href="https://wa.me/5491157716197" className="c-icon"></img>
               +54 911 57716197
             </div>
             <div className="c-info-item">
@@ -55,8 +55,7 @@ const Contact = () => {
         </div>
         <div className="c-right">
           <p className="c-desc">
-            <b>What's your story? </b> Get in touch. Always freelancing if the
-            rigth comes along.
+            <b>Contactame! </b> Contame cual es tu historia y escribamosla en código.
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input

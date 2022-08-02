@@ -1,6 +1,12 @@
 import React from "react";
 import "./about.css";
-import Garantia from "../../img/garantia.png";
+import CertfWeb from "../../img/certfWeb.png";
+import CertfJs from "../../img/certfJs.png";
+import CertfReact from "../../img/certfReact.png";
+import CertfBf from "../../img/certfBf.jpg";
+import AboutImg from "../../img/about1.jpg"
+
+import Download from "../download/Download";
 
 const About = () => {
   return (
@@ -9,34 +15,36 @@ const About = () => {
         <div className="a-card bg"></div>
         <div className="a-card">
           <img
-            src="https://i.pinimg.com/originals/65/df/1a/65df1a2ba15c47dde55509f30e2f4abc.jpg"
+            src={AboutImg}
             alt=""
             className="a-img"
           />
         </div>
       </div>
       <div className="a-right">
-        <h1 className="a-title">About Me</h1>
+        <h1 className="a-title">Sobre mí</h1>
         <p className="a-sub">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit labore,
-          deleniti nostrum.
+          Soy un Frontend dev en constante crecimiento.
         </p>
         <p className="a-desc">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis
-          ducimus pariatur dolore exercitationem deserunt. Doloribus sequi, nemo
-          voluptatem, officia ipsam cupiditate cumque, facilis eum incidunt
-          delectus ut. Vero, facilis facere?
+          Me fascina la tecnología.
+          Proactivo, emprendedor y muy comprometido con desafíos constantes.
+          Poseo experiencia programando y también sólidos conocimientos en el rubro bancario y comercial.
+          <h4 className="a-award-title">Certificaciones</h4>
           <div className="a-award">
-            <img src={Garantia} alt="" className="a-award-img" />
+            <img src={CertfWeb} alt="" className="a-award-img" />
+            <img src={CertfJs} alt="" className="a-award-img" />
+            <img src={CertfReact} alt="" className="a-award-img" />
+            <img src={CertfBf} alt="" className="a-award-img" />
             <div className="a-award-texts">
-              <h4 className="a-award-title">International Desing</h4>
+              {/* <h4 className="a-award-title">International Desing</h4> */}
               <p className="a-award-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-                vitae.
+                A continuacion, tenes acceso a mi CV completo.
               </p>
             </div>
           </div>
         </p>
+        <Download />
       </div>
     </div>
   );

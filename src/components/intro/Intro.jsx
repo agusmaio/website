@@ -6,20 +6,21 @@ const Intro = () => {
     <div className="i">
       <div className="i-left">
         <div className="i-left-wrapper">
-          <h2 className="i-intro">Hello, My Name is</h2>
-          <h2 className="i-name">Agustin Maio</h2>
+          <h2 className="i-intro">
+            Hola! Mi nombre es
+          </h2>
+          <h2 className="i-name">Agus Maio</h2>
           <div className="i-title">
             <div className="i-title-wrapper">
               <div className="i-title-item web-developer">Web Developer</div>
               <div className="i-title-item gamer">Gamer</div>
               <div className="i-title-item sportMan">Sportman</div>
               <div className="i-title-item friendly">Pets Friendly</div>
+              <div className="i-title-item friendly">Argentinian</div>
             </div>
           </div>
           <p className="i-desc">
-            Technology fascinates me. Proactive, enterprising and very committed
-            to constant challenges. I have experience in the programming area,
-            as well as solid knowledge in the banking and commercial field!
+            Gracias por visitar mi Web. Por favor, desliza para conocer mas sobre mí!
           </p>
         </div>
       </div>

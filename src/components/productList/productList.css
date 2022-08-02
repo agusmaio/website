@@ -29,11 +29,16 @@
 @media screen and (max-width:480px) {
     .pl {
         padding: 10px;
+        padding-top: 300px;
+        padding-bottom: 50px;
     }
+
     .pl-texts {
         width: 100%;
     }
-    .pl-desc{
+
+    .pl-desc {
         display: none;
     }
+
 }
