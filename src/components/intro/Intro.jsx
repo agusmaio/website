@@ -10,15 +10,15 @@ const Intro = () => {
           <h2 className="i-name">Agus Maio</h2>
           <div className="i-title">
             <div className="i-title-wrapper">
-              <div className="i-title-item web-developer">Web Developer</div>
+              <div className="i-title-item web-developer">Desarrollador Web</div>
               <div className="i-title-item gamer">Gamer</div>
-              <div className="i-title-item sportMan">Sportman</div>
-              <div className="i-title-item friendly">Pets Friendly</div>
-              <div className="i-title-item friendly">Argentinian</div>
+              <div className="i-title-item sportMan">Deportista</div>
+              <div className="i-title-item friendly">Amante de las mascotas</div>
+              <div className="i-title-item friendly">Argentino</div>
             </div>
           </div>
           <p className="i-desc">
-            Gracias por visitar mi Web. Por favor, desliza para conocer mas
+            Gracias por visitar mi Web. Por favor, desliza para conocer más
             sobre mí!
           </p>
         </div>

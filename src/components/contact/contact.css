@@ -49,6 +49,7 @@
 
 .c-desc {
     font-weight: 200;
+    font-size: 20px;
 }
 
 form {
@@ -72,9 +73,10 @@ textarea {
     padding-left: 10px;
 }
 
-button {
+.c-button {
     border: none;
     padding: 15px;
+    border-radius: 5px;
     background-color: #59b256;
     color: white;
     font-weight: 500;

@@ -6,6 +6,7 @@ import Contact from "./components/contact/Contact";
 import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context";
 import { useContext } from "react";
+import Whatsapp from "./components/whatsapp/Whatsapp";
 
 const App = () => {
   const theme = useContext(ThemeContext);
@@ -17,6 +18,7 @@ const App = () => {
         color: darkMode && "white",
       }}
     >
+      <Whatsapp />
       <Toggle />
       <Intro />
       <About />

@@ -9,10 +9,7 @@ const ProductList = () => {
       <div className="pl-texts">
         <h1 className="pl-title">Algunos de mis proyectos.</h1>
         <p className="pl-desc">
-          Lama is a creative portfolio that your work has been waiting Lama is a
-          creative portfolio that your work has been waiting Lama is a creative
-          portfolio portfolio that your work has been waiting Lama is a creative
-          portfolio.
+          Acá encontrarás acceso a mis proyectos para que puedas darles un vistazo.
         </p>
       </div>
       <div className="pl-list">

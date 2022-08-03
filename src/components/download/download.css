@@ -29,8 +29,8 @@
 
 .button.donwload::after {
     content: "";
-    width: 2px;
-    height: 2px;
+    width: 2.2px;
+    height: 2.2px;
     background: none;
     position: absolute;
     z-index: 1;
@@ -53,6 +53,13 @@
 a {
     color: white;
     text-decoration: none;
+}
+
+@media screen and (max-width: 1600px) {
+    .button.donwload::after {
+        width: 1.2px;
+        height: 1px;
+    }
 }
 
 @media screen and (max-width: 1200px) {

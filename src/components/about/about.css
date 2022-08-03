@@ -52,7 +52,7 @@
 }
 
 .a-title {
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .a-sub {
@@ -118,16 +118,17 @@
 }
 
 @media screen and (max-width: 414px) {
-  .a{
+  .a {
     padding-top: 50px
   }
+
   .a-award-texts {
     margin-top: 30px;
   }
 }
 
 @media screen and (max-width: 380px) {
-.a-left {
-  padding-top: 60px;
-}
+  .a-left {
+    padding-top: 60px;
+  }
 }

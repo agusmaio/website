@@ -61,13 +61,13 @@ const Contact = () => {
             <input
               style={{ backgroundColor: darkMode && "#333" }}
               type="text"
-              placeholder="Name"
+              placeholder="Nombre"
               name="user_name"
             />
             <input
               style={{ backgroundColor: darkMode && "#333" }}
               type="text"
-              placeholder="Subject"
+              placeholder="Asunto"
               name="user_subject"
             />
             <input
@@ -79,13 +79,13 @@ const Contact = () => {
             <textarea
               style={{ backgroundColor: darkMode && "#333" }}
               rows="5"
-              placeholder="Message"
+              placeholder="Mensaje"
               name="message"
               id=""
               cols="30"
             ></textarea>
-            <button>Submit</button>
-            {done && "Thank you..."}
+            <button className="c-button">Enviar</button>
+            {done && "Gracias..."}
           </form>
         </div>
       </div>
